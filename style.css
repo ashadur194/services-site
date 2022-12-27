@@ -96,6 +96,7 @@ span{
     padding: 200px;
     position: relative;
     height: 300px;
+    margin-bottom: 30px;
 }
 
 
@@ -117,3 +118,109 @@ span{
 }
 
 
+/* service */
+.bg{
+    background: url(./images/francesco-ungaro-3_MEgdUNMH0-unsplash.jpg) ;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+.service{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #fafafa;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid blue;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+}
+
+.service-item h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.service-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background:#2f3542;
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+.service p{
+    margin: auto;
+    max-width: 600px;
+}
+
+.about{
+    max-width: 500px;
+    margin: auto;
+   
+}
+
+
+/* guide intro */
+
+.intro-bg{
+    background: url(./images/about.jpg);
+    color: #fafafa;
+    padding-top: 50px;
+}
+
+.left-content{
+    float: left;
+    width: 70%;
+}
+
+.right-notification{
+    float: right;
+    width: 25%;
+
+}
+
+.left-content img{
+    max-width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.intro h1 {
+    border-bottom: 2px solid gold;
+    max-width: 200px;
+    margin: auto;
+}
+
+.guide{
+    margin: 60px 0;
+}
+
+.right-notification h2  {
+    border-bottom: 1px solid gold;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.right-notification ul{
+    list-style: none;
+}
+
+.right-notification ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: black;
+    
+}
