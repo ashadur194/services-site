@@ -1,0 +1,113 @@
+/* default css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-rightz{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+/* header css */
+
+.fixed-width{
+    width: 1000px;
+    margin: auto;
+}
+
+.header{
+    background-color: #57606f;
+}
+
+span{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header img{
+    width: 130px;
+    padding-left: 10px;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+    
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+
+.header-right ul{
+    text-align: right;
+    
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 0 30px;
+    line-height: 60px ;
+    border-right: 1px solid white;
+    transition: .5s ease;
+}
+.header-right ul li a:hover{
+    background-color: #2f3542;
+    color: whitesmoke;
+}
+
+/* banner */
+
+.banner{
+    background: url(./images/top-baner.jpg) center no-repeat ;
+    background-size: cover  ;
+    padding: 200px;
+    position: relative;
+    height: 300px;
+}
+
+
+
+.banner-caption h1{
+    font-size: 60px;
+    color: aliceblue;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+
+.banner-caption span{
+    color: rgb(8, 235, 8);
+}
+
