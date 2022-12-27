@@ -40,6 +40,7 @@ img{
 span{
     font-size: 28px;
     font-weight: 700;
+    line-height: 60px;
 }
 
 .header a{
@@ -103,11 +104,16 @@ span{
     font-size: 60px;
     color: aliceblue;
     position: absolute;
-    left: 110px;
-    top: 50px;
+    margin: auto;
+   left: 30%;
+}
+.banner-caption p{
+    margin: auto;
+    top: 300px;
+    position: absolute;
+    color: aliceblue;
+    left: 200px;
+    width: 900px;
 }
 
-.banner-caption span{
-    color: rgb(8, 235, 8);
-}
 
