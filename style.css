@@ -194,6 +194,11 @@ span{
 
 }
 
+.left-content p{
+    margin-top: 95px;
+
+}
+
 .intro h1 {
     border-bottom: 2px solid gold;
     max-width: 200px;
